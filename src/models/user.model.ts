@@ -5,8 +5,8 @@ interface IUser extends Document {
   name: string;
   email: string;
   password: string;
-  verificationCode: string | null;
-  verificationCodeExpires: Date | null;
+  verificationCode: string ;
+  verificationCodeExpires: Date ;
   isVerified: boolean;
   createdAt: Date;
   updatedAt: Date;
